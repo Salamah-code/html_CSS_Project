@@ -1,0 +1,98 @@
+body{
+    margin:auto;
+    width: 90%;
+    height: 100%;
+
+}
+
+
+.entete{
+    height: 140px;
+    border: 1px solid;
+    border-bottom: 5px inset blue;
+    width: 100%;
+    margin: auto;
+    background-color: rgb(120, 120, 243);
+    display: inline-block;
+
+    
+}
+.entete menu{
+    margin-left: 30%;
+   
+}
+.entete ul li{
+    display:inline-block;
+    margin-left:10%;
+    text-decoration: none;
+}
+.logo img{
+    float: inline-start;
+    border-radius:50px 50px 50px 50px;
+    
+}
+.logo{
+    display: block;
+    margin-top: 20px;
+}
+.text{
+    display:inline-block;
+}
+.text h1{
+    font-size: large;
+    margin-left: 20px;
+    
+}
+.text p{
+    font-size: small;
+    
+}
+
+.sous_entete{
+    background-image: url(images/ucad1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 200px;
+    background-size: cover;
+    box-shadow: 10px 10px 10px rgb(128, 182, 235);
+    position: relative;
+
+
+}
+#slogan{
+    bottom: 0;
+    position: absolute;
+}
+.corps{
+    width: 100%;
+    display:inline-block;
+    margin: 20px;
+   
+}
+.corps .paragraphes{
+    width: 70%;
+    display:inline-block;
+  
+}
+.corps .droite{
+    width: 25%;
+    background-color: gray;
+    display:inline-block;
+    border-radius: 5PX,5PX,5PX,5PX ;
+
+
+}
+#icons{
+    text-align: center;
+}
+footer{
+    border-top: 5px inset red;
+}
+footer div{
+    display: inline-block;
+    margin-left: 150px;
+    margin-right: auto;
+}
+footer div ul li{
+    color: red;
+}
